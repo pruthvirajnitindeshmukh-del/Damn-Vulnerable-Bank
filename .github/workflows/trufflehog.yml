@@ -1,8 +1,8 @@
+name: Trufflehog Scan
 on:
   push:
     branches:
       - main
-  pull_request:
 
 jobs:
   test:
